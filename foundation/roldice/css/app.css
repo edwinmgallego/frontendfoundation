@@ -1,0 +1,17 @@
+.body{
+    background-color: #ee3f54;
+    font-family: 'Monserrat', sans-serif;
+}
+#social-container{
+    background-color: #1c3643;
+}
+#header-container{
+    background-color: #99c84a;
+    color: white;
+}
+.row{
+    border:1px solid blue;
+}
+.columna{
+    border: 1px solid red;
+}
