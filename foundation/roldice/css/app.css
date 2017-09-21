@@ -1,6 +1,9 @@
 .body{
     background-color: #ee3f54;
-    font-family: 'Monserrat', sans-serif;
+    font-family: 'Bree Serif', serif;
+}
+h1,h2,h3,h4,h5,h6, button {
+  font-family: 'Bree Serif', serif;  
 }
 #social-container{
     background-color: #1c3643;
@@ -9,9 +12,8 @@
     background-color: #99c84a;
     color: white;
 }
-.row{
-    border:1px solid blue;
-}
-.columna{
-    border: 1px solid red;
+#logo-container .callout{
+    background-color: #ee3f54;
+    color: white;
+    
 }
