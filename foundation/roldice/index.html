@@ -47,14 +47,21 @@
       <!--menu-->
       <section id="menu-container">
           
-          <ul class="menu">
-          <li><a href="#">Noticias</a></li>
-              <li><a href="#">Juegos rol</a></li>
-              <li><a href="#">Juegos de mesa</a></li>
-              <li><a href="#">Videojuegos</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#">Foros</a></li>
-              <li><a href="#">Suscribete</a></li>
+          <ul class="menu dropdown"data-dropdown-menu>
+          <li><a href="#"><i class="fi-social-designer-news"></i>Noticias</a></li>
+              <li>
+                  <a href="#"><i class="fi-social-game-center"></i>Juegos rol</a>
+                  <ul  id="submenu-container"class="menu">
+                    <li><a href="#">Doungeons and dragons</a></li>
+                      <li><a href="#">WoD</a></li>
+                      <li><a href="#">Shadowrun</a></li>
+                  </ul>
+              </li>
+              <li><a href="#"><i class="fi-social-game-center"></i>Juegos de mesa</a></li>
+              <li><a href="#"><i class="fi-social-game-center"></i>Videojuegos</a></li>
+              <li><a href="#"><i class="fi-social-blogger"></i>Blog</a></li>
+              <li><a href="#"><i class="fi-comment"></i>Foros</a></li>
+              <li><a href="#"><i class="fi-megaphone"></i>Suscribete</a></li>
           </ul>
           
       </section>
