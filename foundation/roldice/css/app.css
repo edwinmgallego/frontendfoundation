@@ -26,6 +26,10 @@ h1,h2,h3,h4,h5,h6, button {
     color: white;
       font-family: 'Bree Serif', serif;  
 }
+#submenu-container{
+    border: 0;
+}
+
 #menu-container li a:hover, #submenu-container li a:hover{
     color: #f6e15f;
 }
