@@ -35,14 +35,29 @@ h1,h2,h3,h4,h5,h6, button {
 }
 #submenu-container li a{
      background-color:#48a19d ;
-    color: white;
+     color: white;
     
 }
 #tickets-action.callout{
     background-color: #5e7eb7;
     color:white;
+    margin-bottom: 0;
+
 }
 #tickets-action.callout buttom{
     color: white;
     border: 1px solid white;
+}
+#lineup-container,
+#lineup-container.tabs,
+#lineup-container.tabs-title {
+    background-color: #967af;
+    color: white;
+    padding: 1em 0;
+    border: 0;
+
+}
+#lineup-container.tabs-title a{
+    font-size: 18px;
+    color: #a7ffb;
 }
