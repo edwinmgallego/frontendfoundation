@@ -48,16 +48,36 @@ h1,h2,h3,h4,h5,h6, button {
     color: white;
     border: 1px solid white;
 }
+#lineup-container{
+    padding: 1em 0;
+}
 #lineup-container,
+#lineup-container.tabs-panel,
 #lineup-container.tabs,
-#lineup-container.tabs-title {
+#lineup-container.tabs-title,
+#lineup-container.tabs-title.is-active a{
     background-color: #967af;
     color: white;
-    padding: 1em 0;
-    border: 0;
 
+    border: 0;
+    text-transform: uppercase;
 }
-#lineup-container.tabs-title a{
+.tabs-content{
+    border: 0;
+    font-family: 'Bree Serif', serif;
+}
+#lineup-container.tabs-title a {
     font-size: 18px;
     color: #a7ffb;
+    font-family: 'Bree Serif', serif;
+}
+#lineup-container.tabs-title a:hover{
+    color: white;
+    background-color: #a7ffb;
+
+
+}
+.tabs-title{
+    display: inline-block;
+    float: none;
 }

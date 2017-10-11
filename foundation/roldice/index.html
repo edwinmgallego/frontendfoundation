@@ -79,17 +79,31 @@
       <!--line up-->
       <section id="lineup-container">
           <h3 class="text-center">line up</h3>
-          <ul class ="tabs" data-tabs id="lineup-tabs">
-          <li class="tabs-title">
-              <a href="#">clanes</a>
+          <ul class ="tabs text-center" data-tabs id="lineup-tabs">
+          <li class="tabs-title is-active">
+              <a href="#panelClanes">clanes</a>
           </li>
           <li class="tabs-title">
-                  <a href="#">clases</a>
+                  <a href="#panelClases">clases</a>
           </li>
           <li class="tabs-title">
-                  <a href="#">enemigos</a>
+                  <a href="#panelEnemigos">enemigos</a>
           </li>
           </ul>
+          <div class="tabs-content"data-tabs-content="lineup-tabs">
+          <div class="tabs-panel is-active" id="panelClanes">
+              el contenido de clanes
+
+              </div>
+               <div class="tabs-panel" id="panelClases">
+              el contenido de clases
+
+              </div>
+                 <div class="tabs-panel" id="panelEnemigos">
+              el contenido de enemigos
+
+              </div>
+          </div>
       </section>
 
       <!--/lineup-->
