@@ -94,3 +94,21 @@ h1,h2,h3,h4,h5,h6, button {
     background-color: #f6e15f;
     color: #161742;
 }
+.pricing-table{
+    border:  1px solid #161742;
+    font-family: 'Rubik', sans-serif;
+}
+.pricing-table li,
+.pricing-table li.title,
+.pricing-table li.description{
+    font-size: 20px;
+
+}
+.pricing-table li.price{
+    font-size: 20px;
+
+}
+.pricing-table a.button{
+    font-family: 'Bree Serif',serif;
+
+}
