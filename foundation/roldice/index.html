@@ -14,7 +14,33 @@
    
     </head>
   <body>
-    <!--social-->
+      <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+          <div  id="offCanvas" class="off-canvas position-left" data-off-canvas>
+          <nav data-mallegan>
+              <ul class="vertical menu" data-drilldown>
+              
+             
+              <li><a href="#"><i class="fi-social-designer-news"></i>Noticias</a></li>
+              <li>
+                  <a href="#"><i class="fi-social-game-center"></i>Juegos rol</a>
+                  <ul  id="submenu-container" class="vertical menu" >
+                        <li><a  data-toggle-dia ="panelClanes"    href="#">Doungeons and dragons</a></li>
+                        <li><a  data-toggle-dia ="panelClases"    href="#">WoD</a></li>
+                        <li><a  data-toggle-dia ="panelEnemigos"  href="#">Shadowrun</a></li>
+                  </ul>
+              </li>
+              <li><a href="#info-container"><i class="fi-social-game-center"></i>Juegos de mesa</a></li>
+              <li><a href="#"><i class="fi-social-game-center"></i>Videojuegos</a></li>
+              <li><a href="#"><i class="fi-social-blogger"></i>Blog</a></li>
+              <li><a href="#"><i class="fi-comment"></i>Foros</a></li>
+              <li><a href="#"><i class="fi-megaphone"></i>Suscribete</a></li>
+               </ul>
+            </nav>
+          </div>
+          <div class="off-canvas-content" data-off-canvas-content>
+          
+          <!--social-->
       <section id="social-container">
       <div class="row align-center text-center">
           <div class="small-1 column">
@@ -46,10 +72,11 @@
       
       <!--menu-->
       <section  id="scrollSticky" data-sticky-container > 
-          <div class="data-sticky" data-sticky data-options="marginTop:0;" data-sticky-on="small" data-top-anchor="scrollSticky">
+          <div class="data-sticky" data-sticky id="sticky" data-options="marginTop:0;" data-sticky-on="small" data-top-anchor="scrollSticky">
           
         <nav id="menu-container" data-magellan>
-          <ul class="menu dropdown align-spaced"data-dropdown-menu>
+            <ul class="menu aligned-spaced show-for-small-only"><li><a href="#" data-toggle="offCanvas">Menu</a></li></ul>
+          <ul class="menu dropdown align-spaced show-for-medium"data-dropdown-menu>
           <li><a href="#"><i class="fi-social-designer-news"></i>Noticias</a></li>
               <li>
                   <a href="#"><i class="fi-social-game-center"></i>Juegos rol</a>
@@ -98,165 +125,135 @@
           <div class="tabs-content"data-tabs-content="lineup-tabs">
           <div class="tabs-panel is-active" id="panelClanes">
               <div class="row">
-              <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
+                  <div class="orbit-container">
+                    <div class="orbit-slide">
                       <img class="orbit-image" src="http://www.komarckart.com/l5r_12.jpg"alt="clanes">
                       <figcaption class="orbit-caption">Clanes</figcaption>
-
+                    </div>
                   </div>
-                  </div>
-                    <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
-                      <img class="orbit-image" src=" http://www.komarckart.com/l5r_12.jpg"alt="clanes">
-                      <figcaption class="orbit-caption">Clanes</figcaption>
-
-                  </div>
-                  </div>
-                    <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
+                   <div class="small-12 medium-6 column">
+                  <div class="orbit-container">
+                    <div class="orbit-slide">
                       <img class="orbit-image" src="http://www.komarckart.com/l5r_12.jpg"alt="clanes">
                       <figcaption class="orbit-caption">Clanes</figcaption>
-
-                  </div>
-                  </div>
-                    <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
-                    <img class="orbit-image" src="https://vignette1.wikia.nocookie.net/l5r/images/2/25/Akodo_Setai_2.jpg/revision/latest?cb=20160109123218"alt="clases">
-                      <figcaption class="orbit-caption">clases</figcaption>
-
-                  </div>
-                  </div>
-                     <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
-                     <img class="orbit-image" src="https://vignette1.wikia.nocookie.net/l5r/images/2/25/Akodo_Setai_2.jpg/revision/latest?cb=20160109123218"alt="clases">
-                      <figcaption class="orbit-caption">clases</figcaption>
-
-                  </div>
-                  </div>
-                     <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
-                     <img class="orbit-image" src="https://vignette1.wikia.nocookie.net/l5r/images/2/25/Akodo_Setai_2.jpg/revision/latest?cb=20160109123218"alt="clases">
-                      <figcaption class="orbit-caption">clases</figcaption>
-
-                  </div>
+                    </div>
                   </div>
               </div>
-
+                   <div class="small-12 medium-6 column">
+                  <div class="orbit-container">
+                    <div class="orbit-slide">
+                      <img class="orbit-image" src="http://www.komarckart.com/l5r_12.jpg"alt="clanes">
+                      <figcaption class="orbit-caption">Clanes</figcaption>
+                    </div>
+                  </div>
               </div>
+              </div>
+          </div>
+
+
+
+
             <div class="tabs-panel" id="panelClases">
                <div class="row">
                   <div class="small-12 medium-6 column">
-                      <div class="orbit-container"></div>
-                        <div class="orbit-slide">
+                      <div class="orbit-container">
+                       <div class="orbit-slide">
                          <img class="orbit-image" src="https://vignette1.wikia.nocookie.net/l5r/images/2/25/Akodo_Setai_2.jpg/revision/latest?cb=20160109123218"alt="clases">
                          <figcaption class="orbit-caption">clases</figcaption>
                         </div>
+                      </div>
                    </div>
-                    <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
-                      <img class="orbit-image" src="https://vignette1.wikia.nocookie.net/l5r/images/2/25/Akodo_Setai_2.jpg/revision/latest?cb=20160109123218"alt="clases">
-                      <figcaption class="orbit-caption">clases</figcaption>
-
-                  </div>
-                  </div>
-                    <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
-                    <img class="orbit-image" src="https://vignette1.wikia.nocookie.net/l5r/images/2/25/Akodo_Setai_2.jpg/revision/latest?cb=20160109123218"alt="clases">
-                      <figcaption class="orbit-caption">clases</figcaption>
-
-                  </div>
-                  </div>
-                    <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
-                      <img class="orbit-image" src="https://vignette1.wikia.nocookie.net/l5r/images/2/25/Akodo_Setai_2.jpg/revision/latest?cb=20160109123218"alt="clases">
-                      <figcaption class="orbit-caption">clases</figcaption>
-
-                  </div>
-                  </div>
-                     <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
-                      <img class="orbit-image" src="https://vignette1.wikia.nocookie.net/l5r/images/2/25/Akodo_Setai_2.jpg/revision/latest?cb=20160109123218"alt="clases">
-                      <figcaption class="orbit-caption">clases</figcaption>
-
-                  </div>
-                  </div>
-                     <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
-                      <img class="orbit-image" src="http://4.bp.blogspot.com/-Usn-HIt4Kds/UJQe8pDOaaI/AAAAAAAADME/acC0r4xp9EU/s1600/nctley5anillos.jpg"alt="clases">
-                      <figcaption class="orbit-caption">clases</figcaption>
-
-                  </div>
-                  </div>
+                   <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                       <div class="orbit-slide">
+                         <img class="orbit-image" src="https://vignette1.wikia.nocookie.net/l5r/images/2/25/Akodo_Setai_2.jpg/revision/latest?cb=20160109123218"alt="clases">
+                         <figcaption class="orbit-caption">clases</figcaption>
+                        </div>
+                      </div>
+                   </div>
+                   <div class="small-12 medium-6 column">
+                      <div class="orbit-container">
+                       <div class="orbit-slide">
+                         <img class="orbit-image" src="https://vignette1.wikia.nocookie.net/l5r/images/2/25/Akodo_Setai_2.jpg/revision/latest?cb=20160109123218"alt="clases">
+                         <figcaption class="orbit-caption">clases</figcaption>
+                        </div>
+                      </div>
+                   </div>
               </div>
 
               </div>
                  <div class="tabs-panel" id="panelEnemigos">
                   <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
+                  <div class="orbit-container">
+                    <div class="orbit-slide">
                       <img class="orbit-image" src="http://4.bp.blogspot.com/-Usn-HIt4Kds/UJQe8pDOaaI/AAAAAAAADME/acC0r4xp9EU/s1600/nctley5anillos.jpg"alt="enemigo">
                       <figcaption class="orbit-caption">enemigos</figcaption>
 
                   </div>
+                </div>
+
                   </div>
                       <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
+                  <div class="orbit-container">
+                        <div class="orbit-slide">
                       <img class="orbit-image" src="http://4.bp.blogspot.com/-Usn-HIt4Kds/UJQe8pDOaaI/AAAAAAAADME/acC0r4xp9EU/s1600/nctley5anillos.jpg"alt="enemigo">
                       <figcaption class="orbit-caption">enemigos</figcaption>
 
                   </div>
+
+                  </div>
+
                   </div>
                       <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
+                        <div class="orbit-container">
+                      <div class="orbit-slide">
                       <img class="orbit-image" src="http://4.bp.blogspot.com/-Usn-HIt4Kds/UJQe8pDOaaI/AAAAAAAADME/acC0r4xp9EU/s1600/nctley5anillos.jpg"alt="enemigo">
                       <figcaption class="orbit-caption">enemigos</figcaption>
-
                   </div>
+                  </div>
+
                   </div>
                       <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
+                  <div class="orbit-container">
+                     <div class="orbit-slide">
                       <img class="orbit-image" src="http://4.bp.blogspot.com/-Usn-HIt4Kds/UJQe8pDOaaI/AAAAAAAADME/acC0r4xp9EU/s1600/nctley5anillos.jpg"alt="enemigo">
                       <figcaption class="orbit-caption">enemigos</figcaption>
 
                   </div>
+
+                  </div>
+
                   </div>
                       <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
+                  <div class="orbit-container">
+                      <div class="orbit-slide">
                       <img class="orbit-image" src="http://4.bp.blogspot.com/-Usn-HIt4Kds/UJQe8pDOaaI/AAAAAAAADME/acC0r4xp9EU/s1600/nctley5anillos.jpg"alt="enemigo">
                       <figcaption class="orbit-caption">enemigos</figcaption>
 
                   </div>
+
+                 </div>
+
                   </div>
                       <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
+                  <div class="orbit-container">
+                        <div class="orbit-slide">
                       <img class="orbit-image" src="http://4.bp.blogspot.com/-Usn-HIt4Kds/UJQe8pDOaaI/AAAAAAAADME/acC0r4xp9EU/s1600/nctley5anillos.jpg"alt="enemigo">
                       <figcaption class="orbit-caption">enemigos</figcaption>
 
                   </div>
+                </div>
+
                   </div>
                       <div class="small-12 medium-6 column">
-                  <div class="orbit-container"></div>
-                  <div class="orbit-slide">
+                  <div class="orbit-container">
+                               <div class="orbit-slide">
                       <img class="orbit-image" src="http://4.bp.blogspot.com/-Usn-HIt4Kds/UJQe8pDOaaI/AAAAAAAADME/acC0r4xp9EU/s1600/nctley5anillos.jpg"alt="enemigo">
                       <figcaption class="orbit-caption">enemigos</figcaption>
 
                   </div>
+                  </div>
+
                   </div>
 
               </div>
@@ -311,7 +308,7 @@
           <h3 class="text-center">Suscríbete</h3>
           <h4 class="text-center"><small> y recibe las ultimas novedades</small></h4>
           
-          <form action="" method="post" novalidate data-abide>
+          <form action="https://formspree.io/ing.edwin.gallego@gmail.com" method="post" novalidate data-abide>
               
           <div data-abide-error class="row columns small-12 medium-6 text-center error-container"  style="display:none;">
               
@@ -345,6 +342,11 @@
       </section>
 
       <!--/INFO-->
+          
+          </div>
+          </div>
+      </div>
+    
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
